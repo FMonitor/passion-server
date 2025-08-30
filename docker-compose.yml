@@ -1,0 +1,102 @@
+version: "3.8"
+
+services:
+
+  # =================
+  # Nginx 反代
+  # =================
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "[::]:80:80" 
+      - "443:443"   # 如果要启用 HTTPS
+      - "[::]:443:443" # 如果要启用 HTTPS
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/certs:/etc/nginx/certs   # 存放 SSL 证书（如果有的话）
+      - ./nginx/html:/usr/share/nginx/html
+    networks:
+      - mcnet
+
+  # =================
+  # Code-Server (Web IDE)
+  # =================
+  code-server:
+    image: lscr.io/linuxserver/code-server:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - PASSWORD=supersecret
+    volumes:
+      - ./codeserver/config:/config
+    networks:
+      - mcnet
+
+  # =================
+  # FileGator (文件管理器)
+  # =================
+  filegator:
+    image: filegator/filegator
+    container_name: filegator
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./filegator/files:/var/www/filegator/repository
+      - ./filegator/users.json:/var/www/filegator/private/users.json
+      - ./filegator/configuration.php:/var/www/filegator/configuration.php
+    networks:
+      - mcnet
+
+  # =================
+  # Minecraft 大厅服务器 
+  # =================
+  mcmain:
+    image: azul/zulu-openjdk:17
+    container_name: mc_zulu17_main
+    environment:
+      EULA: "TRUE"
+    volumes:
+      - ./mcserver/mcmain-data:/data
+    ports:
+      - "3000:3000"  # 大厅服务器端口
+    networks:
+      - mcnet
+    command: ["tail", "-f", "/dev/null"]
+
+  # =================
+  # Minecraft 服务器 1
+  # =================
+  mc1:
+    image: azul/zulu-openjdk:21
+    container_name: mc_zulu21_1
+    environment:
+      EULA: "TRUE"
+    volumes:
+      - ./mcserver/mc1-data:/data
+    networks:
+      - mcnet
+    command: ["tail", "-f", "/dev/null"]
+
+  # =================
+  # Minecraft 服务器 2
+  # =================
+  mc2:
+    image: azul/zulu-openjdk:21
+    container_name: mc_zulu21_2
+    environment:
+      EULA: "TRUE"
+    volumes:
+      - ./mcserver/mc2-data:/data
+    networks:
+      - mcnet
+    command: ["tail", "-f", "/dev/null"]
+
+networks:
+  mcnet:
+    driver: bridge

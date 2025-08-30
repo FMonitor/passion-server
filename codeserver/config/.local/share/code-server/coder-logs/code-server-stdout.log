@@ -1,0 +1,24 @@
+[2025-08-30T07:18:47.734Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-30T07:18:47.735Z] info  Using user-data-dir /config/data
+[2025-08-30T07:18:47.752Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-30T07:18:47.752Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-30T07:18:47.752Z] info    - Authentication is enabled
+[2025-08-30T07:18:47.752Z] info      - Using password from $PASSWORD
+[2025-08-30T07:18:47.752Z] info    - Not serving HTTPS
+[2025-08-30T07:18:47.752Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-30T12:53:18.003Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-30T12:53:18.245Z] info  Using user-data-dir /config/data
+[2025-08-30T12:53:18.274Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-30T12:53:18.274Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-30T12:53:18.274Z] info    - Authentication is enabled
+[2025-08-30T12:53:18.274Z] info      - Using password from $PASSWORD
+[2025-08-30T12:53:18.274Z] info    - Not serving HTTPS
+[2025-08-30T12:53:18.274Z] info  Session server listening on /config/data/code-server-ipc.sock
+[21:34:22] 
+
+
+
+
+[21:34:23] Extension host agent started.
+[21:34:23] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+[21:34:23] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
