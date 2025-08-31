@@ -22,3 +22,231 @@
 [21:34:23] Extension host agent started.
 [21:34:23] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
 [21:34:23] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+[2025-08-31T03:36:43.548Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T03:36:43.648Z] info  Using user-data-dir /config/data
+[2025-08-31T03:36:43.669Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T03:36:43.669Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T03:36:43.669Z] info    - Authentication is enabled
+[2025-08-31T03:36:43.669Z] info      - Using password from $PASSWORD
+[2025-08-31T03:36:43.669Z] info    - Not serving HTTPS
+[2025-08-31T03:36:43.669Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T03:38:31.358Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T03:38:31.359Z] info  Using user-data-dir /config/data
+[2025-08-31T03:38:31.378Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T03:38:31.378Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T03:38:31.378Z] info    - Authentication is enabled
+[2025-08-31T03:38:31.378Z] info      - Using password from $PASSWORD
+[2025-08-31T03:38:31.378Z] info    - Not serving HTTPS
+[2025-08-31T03:38:31.378Z] info  Session server listening on /config/data/code-server-ipc.sock
+[12:01:17] 
+
+
+
+
+[12:01:18] Extension host agent started.
+[2025-08-31T04:20:12.075Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T04:20:12.143Z] info  Using user-data-dir /config/data
+[2025-08-31T04:20:12.162Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T04:20:12.163Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T04:20:12.163Z] info    - Authentication is enabled
+[2025-08-31T04:20:12.163Z] info      - Using password from $PASSWORD
+[2025-08-31T04:20:12.163Z] info    - Not serving HTTPS
+[2025-08-31T04:20:12.163Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T06:41:22.492Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T06:41:22.551Z] info  Using user-data-dir /config/data
+[2025-08-31T06:41:22.571Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T06:41:22.571Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T06:41:22.571Z] info    - Authentication is enabled
+[2025-08-31T06:41:22.571Z] info      - Using password from $PASSWORD
+[2025-08-31T06:41:22.571Z] info    - Not serving HTTPS
+[2025-08-31T06:41:22.571Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T06:49:41.872Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T06:49:41.873Z] info  Using user-data-dir /config/data
+[2025-08-31T06:49:41.890Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T06:49:41.890Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T06:49:41.890Z] info    - Authentication is enabled
+[2025-08-31T06:49:41.890Z] info      - Using password from $PASSWORD
+[2025-08-31T06:49:41.890Z] info    - Not serving HTTPS
+[2025-08-31T06:49:41.890Z] info  Session server listening on /config/data/code-server-ipc.sock
+[14:50:28] 
+
+
+
+
+[14:50:29] Extension host agent started.
+[2025-08-31T07:19:08.039Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T07:19:08.039Z] info  Using user-data-dir /config/data
+[2025-08-31T07:19:08.085Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T07:19:08.085Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T07:19:08.085Z] info    - Authentication is enabled
+[2025-08-31T07:19:08.085Z] info      - Using password from $PASSWORD
+[2025-08-31T07:19:08.085Z] info    - Not serving HTTPS
+[2025-08-31T07:19:08.085Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T07:26:19.557Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T07:26:19.557Z] info  Using user-data-dir /config/data
+[2025-08-31T07:26:19.599Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T07:26:19.599Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T07:26:19.599Z] info    - Authentication is enabled
+[2025-08-31T07:26:19.599Z] info      - Using password from $PASSWORD
+[2025-08-31T07:26:19.599Z] info    - Not serving HTTPS
+[2025-08-31T07:26:19.599Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T07:29:06.155Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T07:29:06.155Z] info  Using user-data-dir /config/data
+[2025-08-31T07:29:06.165Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T07:29:06.165Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T07:29:06.165Z] info    - Authentication is enabled
+[2025-08-31T07:29:06.165Z] info      - Using password from $PASSWORD
+[2025-08-31T07:29:06.166Z] info    - Not serving HTTPS
+[2025-08-31T07:29:06.166Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T07:30:52.813Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T07:30:52.814Z] info  Using user-data-dir /config/data
+[2025-08-31T07:30:52.823Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T07:30:52.823Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T07:30:52.823Z] info    - Authentication is enabled
+[2025-08-31T07:30:52.823Z] info      - Using password from $PASSWORD
+[2025-08-31T07:30:52.823Z] info    - Not serving HTTPS
+[2025-08-31T07:30:52.823Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T07:40:29.663Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T07:40:29.664Z] info  Using user-data-dir /config/data
+[2025-08-31T07:40:29.681Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T07:40:29.681Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T07:40:29.681Z] info    - Authentication is enabled
+[2025-08-31T07:40:29.681Z] info      - Using password from $PASSWORD
+[2025-08-31T07:40:29.681Z] info    - Not serving HTTPS
+[2025-08-31T07:40:29.681Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T07:47:49.391Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T07:47:49.391Z] info  Using user-data-dir /config/data
+[2025-08-31T07:47:49.409Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T07:47:49.409Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T07:47:49.409Z] info    - Authentication is enabled
+[2025-08-31T07:47:49.409Z] info      - Using password from $PASSWORD
+[2025-08-31T07:47:49.409Z] info    - Not serving HTTPS
+[2025-08-31T07:47:49.409Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T08:06:45.647Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T08:06:45.706Z] info  Using user-data-dir /config/data
+[2025-08-31T08:06:45.729Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T08:06:45.729Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T08:06:45.729Z] info    - Authentication is enabled
+[2025-08-31T08:06:45.729Z] info      - Using password from $PASSWORD
+[2025-08-31T08:06:45.729Z] info    - Not serving HTTPS
+[2025-08-31T08:06:45.729Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T08:08:32.142Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T08:08:32.142Z] info  Using user-data-dir /config/data
+[2025-08-31T08:08:32.160Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T08:08:32.160Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T08:08:32.160Z] info    - Authentication is enabled
+[2025-08-31T08:08:32.160Z] info      - Using password from $PASSWORD
+[2025-08-31T08:08:32.160Z] info    - Not serving HTTPS
+[2025-08-31T08:08:32.160Z] info  Session server listening on /config/data/code-server-ipc.sock
+[16:24:22] 
+
+
+
+
+[16:24:23] Extension host agent started.
+[2025-08-31T08:35:26.599Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T08:35:26.656Z] info  Using user-data-dir /config/data
+[2025-08-31T08:35:26.676Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T08:35:26.676Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T08:35:26.676Z] info    - Authentication is enabled
+[2025-08-31T08:35:26.676Z] info      - Using password from $PASSWORD
+[2025-08-31T08:35:26.676Z] info    - Not serving HTTPS
+[2025-08-31T08:35:26.676Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T08:36:02.833Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T08:36:02.833Z] info  Using user-data-dir /config/data
+[2025-08-31T08:36:02.850Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T08:36:02.850Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T08:36:02.850Z] info    - Authentication is enabled
+[2025-08-31T08:36:02.850Z] info      - Using password from $PASSWORD
+[2025-08-31T08:36:02.850Z] info    - Not serving HTTPS
+[2025-08-31T08:36:02.850Z] info  Session server listening on /config/data/code-server-ipc.sock
+[16:39:38] 
+
+
+
+
+[16:39:38] Extension host agent started.
+[2025-08-31T08:51:50.989Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T08:51:51.042Z] info  Using user-data-dir /config/data
+[2025-08-31T08:51:51.067Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T08:51:51.067Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T08:51:51.067Z] info    - Authentication is enabled
+[2025-08-31T08:51:51.067Z] info      - Using password from $PASSWORD
+[2025-08-31T08:51:51.067Z] info    - Not serving HTTPS
+[2025-08-31T08:51:51.067Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T08:53:52.864Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T08:53:52.864Z] info  Using user-data-dir /config/data
+[2025-08-31T08:53:52.881Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T08:53:52.881Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T08:53:52.881Z] info    - Authentication is enabled
+[2025-08-31T08:53:52.881Z] info      - Using password from $PASSWORD
+[2025-08-31T08:53:52.881Z] info    - Not serving HTTPS
+[2025-08-31T08:53:52.881Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T08:58:24.719Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T08:58:24.719Z] info  Using user-data-dir /config/data
+[2025-08-31T08:58:24.737Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T08:58:24.737Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T08:58:24.737Z] info    - Authentication is enabled
+[2025-08-31T08:58:24.737Z] info      - Using password from $PASSWORD
+[2025-08-31T08:58:24.737Z] info    - Not serving HTTPS
+[2025-08-31T08:58:24.737Z] info  Session server listening on /config/data/code-server-ipc.sock
+[16:58:40] 
+
+
+
+
+[16:58:41] Extension host agent started.
+[2025-08-31T09:03:14.944Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T09:03:14.945Z] info  Using user-data-dir /config/data
+[2025-08-31T09:03:14.962Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T09:03:14.962Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T09:03:14.962Z] info    - Authentication is enabled
+[2025-08-31T09:03:14.962Z] info      - Using password from $PASSWORD
+[2025-08-31T09:03:14.962Z] info    - Not serving HTTPS
+[2025-08-31T09:03:14.962Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T09:04:31.442Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T09:04:31.443Z] info  Using user-data-dir /config/data
+[2025-08-31T09:04:31.459Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T09:04:31.460Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T09:04:31.460Z] info    - Authentication is enabled
+[2025-08-31T09:04:31.460Z] info      - Using password from $PASSWORD
+[2025-08-31T09:04:31.460Z] info    - Not serving HTTPS
+[2025-08-31T09:04:31.460Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T09:07:50.663Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T09:07:50.664Z] info  Using user-data-dir /config/data
+[2025-08-31T09:07:50.680Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T09:07:50.680Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T09:07:50.680Z] info    - Authentication is enabled
+[2025-08-31T09:07:50.680Z] info      - Using password from $PASSWORD
+[2025-08-31T09:07:50.680Z] info    - Not serving HTTPS
+[2025-08-31T09:07:50.680Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T09:09:20.473Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T09:09:20.473Z] info  Using user-data-dir /config/data
+[2025-08-31T09:09:20.491Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T09:09:20.491Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T09:09:20.491Z] info    - Authentication is enabled
+[2025-08-31T09:09:20.491Z] info      - Using password from $PASSWORD
+[2025-08-31T09:09:20.491Z] info    - Not serving HTTPS
+[2025-08-31T09:09:20.491Z] info  Session server listening on /config/data/code-server-ipc.sock
+[17:09:41] 
+
+
+
+
+[17:09:42] Extension host agent started.
+[2025-08-31T09:25:42.819Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T09:25:42.819Z] info  Using user-data-dir /config/data
+[2025-08-31T09:25:42.837Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T09:25:42.837Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T09:25:42.837Z] info    - Authentication is enabled
+[2025-08-31T09:25:42.837Z] info      - Using password from $PASSWORD
+[2025-08-31T09:25:42.837Z] info    - Not serving HTTPS
+[2025-08-31T09:25:42.837Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2025-08-31T09:29:55.558Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2025-08-31T09:29:55.612Z] info  Using user-data-dir /config/data
+[2025-08-31T09:29:55.634Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-08-31T09:29:55.634Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-08-31T09:29:55.634Z] info    - Authentication is enabled
+[2025-08-31T09:29:55.634Z] info      - Using password from $PASSWORD
+[2025-08-31T09:29:55.634Z] info    - Not serving HTTPS
+[2025-08-31T09:29:55.634Z] info  Session server listening on /config/data/code-server-ipc.sock

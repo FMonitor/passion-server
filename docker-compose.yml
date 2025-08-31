@@ -6,14 +6,11 @@ services:
   # Nginx 反代
   # =================
   nginx:
-    image: nginx:alpine
+    image: nginx:latest
     container_name: nginx
     restart: unless-stopped
-    ports:
-      - "80:80"
-      - "[::]:80:80" 
-      - "443:443"   # 如果要启用 HTTPS
-      - "[::]:443:443" # 如果要启用 HTTPS
+    ports:   
+       - "80:80"     
     volumes:
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./nginx/certs:/etc/nginx/certs   # 存放 SSL 证书（如果有的话）
@@ -53,50 +50,57 @@ services:
     networks:
       - mcnet
 
-  # =================
-  # Minecraft 大厅服务器 
-  # =================
-  mcmain:
-    image: azul/zulu-openjdk:17
-    container_name: mc_zulu17_main
-    environment:
-      EULA: "TRUE"
-    volumes:
-      - ./mcserver/mcmain-data:/data
-    ports:
-      - "3000:3000"  # 大厅服务器端口
-    networks:
-      - mcnet
-    command: ["tail", "-f", "/dev/null"]
+  # # =================
+  # # Minecraft 大厅服务器 
+  # # =================
+  # mcmain:
+  #   image: azul/zulu-openjdk:17
+  #   container_name: mc_zulu17_main
+  #   environment:
+  #     EULA: "TRUE"
+  #   volumes:
+  #     - ./mcserver/mcmain-data:/data
+  #   ports:
+  #     - "3000:3000" 
+  #   networks:
+  #     - mcnet
+  #   command: ["tail", "-f", "/dev/null"]
 
-  # =================
-  # Minecraft 服务器 1
-  # =================
-  mc1:
-    image: azul/zulu-openjdk:21
-    container_name: mc_zulu21_1
-    environment:
-      EULA: "TRUE"
-    volumes:
-      - ./mcserver/mc1-data:/data
-    networks:
-      - mcnet
-    command: ["tail", "-f", "/dev/null"]
+  # # =================
+  # # Minecraft 服务器 1
+  # # =================
+  # mc1:
+  #   image: azul/zulu-openjdk:21
+  #   container_name: mc_zulu21_1
+  #   environment:
+  #     EULA: "TRUE"
+  #   volumes:
+  #     - ./mcserver/mc1-data:/data
+  #   networks:
+  #     - mcnet
+  #   command: ["tail", "-f", "/dev/null"]
+  #   ports:
+  #     - "3001:3001"
 
-  # =================
-  # Minecraft 服务器 2
-  # =================
-  mc2:
-    image: azul/zulu-openjdk:21
-    container_name: mc_zulu21_2
-    environment:
-      EULA: "TRUE"
-    volumes:
-      - ./mcserver/mc2-data:/data
-    networks:
-      - mcnet
-    command: ["tail", "-f", "/dev/null"]
+  # # =================
+  # # Minecraft 服务器 2
+  # # =================
+  # mc2:
+  #   image: azul/zulu-openjdk:21
+  #   container_name: mc_zulu21_2
+  #   environment:
+  #     EULA: "TRUE"
+  #   volumes:
+  #     - ./mcserver/mc2-data:/data
+  #   networks:
+  #     - mcnet
+  #   command: ["tail", "-f", "/dev/null"]
+  #   ports:
+  #     - "3002:3002"
 
 networks:
   mcnet:
-    driver: bridge
+    ipam:
+       config:
+         - subnet: 2001:da8:2d00:2069::/64
+    enable_ipv6: true
